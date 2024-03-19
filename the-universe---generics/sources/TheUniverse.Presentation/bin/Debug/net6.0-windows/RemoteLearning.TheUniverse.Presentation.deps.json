@@ -1,0 +1,103 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RemoteLearning.TheUniverse.Presentation/1.0.0": {
+        "dependencies": {
+          "RemoteLearning.TheUniverse.Application": "1.0.0",
+          "RemoteLearning.TheUniverse.Infrastructure": "1.0.0",
+          "RemoteLearning.TheUniverse.Application.Reference": "1.0.0.0",
+          "RemoteLearning.TheUniverse.Domain.Reference": "1.0.0.0",
+          "RemoteLearning.TheUniverse.Infrastructure.Reference": "1.0.0.0"
+        },
+        "runtime": {
+          "RemoteLearning.TheUniverse.Presentation.dll": {}
+        }
+      },
+      "RemoteLearning.TheUniverse.Application/1.0.0": {
+        "dependencies": {
+          "RemoteLearning.TheUniverse.Domain": "1.0.0",
+          "RemoteLearning.TheUniverse.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "RemoteLearning.TheUniverse.Application.dll": {}
+        }
+      },
+      "RemoteLearning.TheUniverse.Domain/1.0.0": {
+        "runtime": {
+          "RemoteLearning.TheUniverse.Domain.dll": {}
+        }
+      },
+      "RemoteLearning.TheUniverse.Infrastructure/1.0.0": {
+        "runtime": {
+          "RemoteLearning.TheUniverse.Infrastructure.dll": {}
+        }
+      },
+      "RemoteLearning.TheUniverse.Application.Reference/1.0.0.0": {
+        "runtime": {
+          "RemoteLearning.TheUniverse.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "RemoteLearning.TheUniverse.Domain.Reference/1.0.0.0": {
+        "runtime": {
+          "RemoteLearning.TheUniverse.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "RemoteLearning.TheUniverse.Infrastructure.Reference/1.0.0.0": {
+        "runtime": {
+          "RemoteLearning.TheUniverse.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RemoteLearning.TheUniverse.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RemoteLearning.TheUniverse.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RemoteLearning.TheUniverse.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RemoteLearning.TheUniverse.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RemoteLearning.TheUniverse.Application.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RemoteLearning.TheUniverse.Domain.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RemoteLearning.TheUniverse.Infrastructure.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

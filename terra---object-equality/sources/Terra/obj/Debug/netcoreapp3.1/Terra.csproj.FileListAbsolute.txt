@@ -1,0 +1,9 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\bin\Debug\netcoreapp3.1\iQuest.Terra.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\bin\Debug\netcoreapp3.1\iQuest.Terra.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\bin\Debug\netcoreapp3.1\iQuest.Terra.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\obj\Debug\netcoreapp3.1\Terra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\obj\Debug\netcoreapp3.1\Terra.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\obj\Debug\netcoreapp3.1\Terra.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\obj\Debug\netcoreapp3.1\Terra.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\obj\Debug\netcoreapp3.1\iQuest.Terra.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\terra---object-equality\sources\Terra\obj\Debug\netcoreapp3.1\iQuest.Terra.pdb

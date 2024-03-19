@@ -1,0 +1,14 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\bin\Debug\net6.0\Eyeglass.exe
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\bin\Debug\net6.0\Eyeglass.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\bin\Debug\net6.0\Eyeglass.runtimeconfig.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\bin\Debug\net6.0\Eyeglass.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\bin\Debug\net6.0\Eyeglass.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\Eyeglass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\Eyeglass.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\Eyeglass.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\Eyeglass.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\Eyeglass.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\refint\Eyeglass.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\Eyeglass.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\Eyeglass.genruntimeconfig.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\eyeglass---reflection\Eyeglass\Eyeglass\obj\Debug\net6.0\ref\Eyeglass.dll

@@ -1,0 +1,14 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\Custom-Hashtables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\Custom-Hashtables.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\Custom-Hashtables.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\Custom-Hashtables.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\bin\Debug\net6.0\Custom-Hashtables.exe
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\bin\Debug\net6.0\Custom-Hashtables.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\bin\Debug\net6.0\Custom-Hashtables.runtimeconfig.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\bin\Debug\net6.0\Custom-Hashtables.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\bin\Debug\net6.0\Custom-Hashtables.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\Custom-Hashtables.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\refint\Custom-Hashtables.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\Custom-Hashtables.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\Custom-Hashtables.genruntimeconfig.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\custom-hashtable\Custom-Hashtables\Custom-Hashtables\obj\Debug\net6.0\ref\Custom-Hashtables.dll

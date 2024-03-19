@@ -1,0 +1,13 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\obj\Debug\netcoreapp3.1\HotelQueries.csproj.AssemblyReference.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\obj\Debug\netcoreapp3.1\HotelQueries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\obj\Debug\netcoreapp3.1\HotelQueries.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\obj\Debug\netcoreapp3.1\HotelQueries.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\obj\Debug\netcoreapp3.1\HotelQueries.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\obj\Debug\netcoreapp3.1\HotelQueries.csproj.CopyComplete
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\obj\Debug\netcoreapp3.1\iQuest.HotelQueries.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries\obj\Debug\netcoreapp3.1\iQuest.HotelQueries.pdb

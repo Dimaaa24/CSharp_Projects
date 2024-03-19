@@ -1,0 +1,14 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.exe
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.runtimeconfig.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\bin\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\refint\RemoteLearning.Geometrix.NoOcp.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\RemoteLearning.Geometrix.NoOcp.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\Geometrix.NoOcp.genruntimeconfig.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\geometrix---open-closed-principle\sources\Geometrix.NoOcp\Geometrix.NoOcp\obj\Debug\net6.0-windows\ref\RemoteLearning.Geometrix.NoOcp.dll

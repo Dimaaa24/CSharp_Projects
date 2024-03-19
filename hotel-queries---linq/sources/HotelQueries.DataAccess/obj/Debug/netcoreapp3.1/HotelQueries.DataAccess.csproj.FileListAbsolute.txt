@@ -1,0 +1,16 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\bin\Debug\netcoreapp3.1\Data\customers.csv
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\bin\Debug\netcoreapp3.1\Data\reservations.csv
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\bin\Debug\netcoreapp3.1\Data\rooms.csv
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.DataAccess.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.DataAccess.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.DataAccess.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\obj\Debug\netcoreapp3.1\HotelQueries.DataAccess.csproj.AssemblyReference.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\obj\Debug\netcoreapp3.1\HotelQueries.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\obj\Debug\netcoreapp3.1\HotelQueries.DataAccess.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\obj\Debug\netcoreapp3.1\HotelQueries.DataAccess.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\obj\Debug\netcoreapp3.1\HotelQueries.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\obj\Debug\netcoreapp3.1\HotelQueries.DataAccess.csproj.CopyComplete
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\obj\Debug\netcoreapp3.1\iQuest.HotelQueries.DataAccess.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.DataAccess\obj\Debug\netcoreapp3.1\iQuest.HotelQueries.DataAccess.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RemoteLearning.Geometrix.WithOcp/1.0.0": {
+        "runtime": {
+          "RemoteLearning.Geometrix.WithOcp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RemoteLearning.Geometrix.WithOcp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
