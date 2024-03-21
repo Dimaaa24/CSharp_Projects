@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <RootNamespace>RemoteLearning.StarFiles</RootNamespace>
+        <AssemblyName>RemoteLearning.StarFiles</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Nagarro</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>Star Files</Product>
+        <Description>This is an exercise used in the Remote Learning program from Nagarro.</Description>
+        <Copyright>Copyright © Nagarro 2023</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ConsoleTools" Version="0.5.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\StarFiles.WinApi\StarFiles.WinApi.csproj" />
+    </ItemGroup>
+
+</Project>

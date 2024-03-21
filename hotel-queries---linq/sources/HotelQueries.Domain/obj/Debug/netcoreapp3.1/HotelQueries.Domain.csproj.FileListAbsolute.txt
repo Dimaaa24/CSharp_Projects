@@ -1,9 +1,0 @@
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.deps.json
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.dll
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\bin\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.pdb
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\obj\Debug\netcoreapp3.1\HotelQueries.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\obj\Debug\netcoreapp3.1\HotelQueries.Domain.AssemblyInfoInputs.cache
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\obj\Debug\netcoreapp3.1\HotelQueries.Domain.AssemblyInfo.cs
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\obj\Debug\netcoreapp3.1\HotelQueries.Domain.csproj.CoreCompileInputs.cache
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\obj\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.dll
-C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\hotel-queries---linq\sources\HotelQueries.Domain\obj\Debug\netcoreapp3.1\iQuest.HotelQueries.Domain.pdb
