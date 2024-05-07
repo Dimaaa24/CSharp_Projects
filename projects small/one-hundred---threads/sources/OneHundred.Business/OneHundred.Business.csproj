@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <AssemblyName>RemoteLearning.OneHundred.Business</AssemblyName>
+        <RootNamespace>RemoteLearning.OneHundred.Business</RootNamespace>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Nagarro</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>One Hundred</Product>
+        <Description>This is an exercise used in the Remote Learning program from Nagarro.</Description>
+        <Copyright>Copyright © Nagarro 2023</Copyright>
+    </PropertyGroup>
+
+</Project>

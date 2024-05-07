@@ -2,6 +2,7 @@
 using Moq;
 using Nagarro.VendingMachine.Authentication;
 using Nagarro.VendingMachine.UseCases;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.UseCasesTests.LogoutUseCaseTests
 {
@@ -12,7 +13,9 @@ namespace VendingMachine.Tests.UseCasesTests.LogoutUseCaseTests
         public void HavingALogOutUseCaseInstance_WhenExecuted_ThenUserIsAuthenticated()
         {
             Mock<IAuthenticationService> authenticationService = new Mock<IAuthenticationService>();
-            LogoutUseCase logoutUseCase = new LogoutUseCase(authenticationService.Object);
+            Mock<ILogger<LogoutUseCase>> logger = new Mock<ILogger<LogoutUseCase>>(); 
+
+            LogoutUseCase logoutUseCase = new LogoutUseCase(authenticationService.Object, logger.Object);
 
             logoutUseCase.Execute();
 

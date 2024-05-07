@@ -1,0 +1,22 @@
+{
+  "Sales": [
+    {
+      "Name": "Soda",
+      "Price": 20.0,
+      "PaymentMethod": "card",
+      "Date": "2024-04-09T15:51:01"
+    },
+    {
+      "Name": "Cookie",
+      "Price": 5.0,
+      "PaymentMethod": "cash",
+      "Date": "2024-04-09T15:51:30"
+    },
+    {
+      "Name": "Water",
+      "Price": 5.0,
+      "PaymentMethod": "card",
+      "Date": "2024-04-09T15:51:57"
+    }
+  ]
+}

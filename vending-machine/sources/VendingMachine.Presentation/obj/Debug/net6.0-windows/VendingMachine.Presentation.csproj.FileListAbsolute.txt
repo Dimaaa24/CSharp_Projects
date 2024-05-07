@@ -1,0 +1,15 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\VendingMachine.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\VendingMachine.Presentation.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\VendingMachine.Presentation.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\VendingMachine.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\bin\Debug\net6.0-windows\VendingMachine.Presentation.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\bin\Debug\net6.0-windows\VendingMachine.Presentation.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\bin\Debug\net6.0-windows\VendingMachine.Presentation.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\bin\Debug\net6.0-windows\VendingMachine.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\bin\Debug\net6.0-windows\VendingMachine.Business.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\VendingMachine.Presentation.csproj.AssemblyReference.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\VendingMachine.Presentation.csproj.CopyComplete
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\VendingMachine.Presentation.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\refint\VendingMachine.Presentation.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\VendingMachine.Presentation.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\obj\Debug\net6.0-windows\ref\VendingMachine.Presentation.dll

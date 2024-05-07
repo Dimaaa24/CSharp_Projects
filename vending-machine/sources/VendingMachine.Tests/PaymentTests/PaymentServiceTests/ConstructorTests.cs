@@ -1,7 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using log4net.Core;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Nagarro.VendingMachine.Payment;
 using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
 {
@@ -11,12 +13,14 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
         private readonly Mock<IBuyView> buyView;
         private readonly Mock<IPaymentAlgorithm> cardPayment;
         private readonly Mock<IPaymentAlgorithm> cashPayment;
+        private readonly Mock<ILogger<PaymentService>> logger;
         private readonly List<IPaymentAlgorithm> paymentAlgorithms;
 
         public ConstructorTests()
         {
             cardPayment = new Mock<IPaymentAlgorithm>();
             cashPayment = new Mock<IPaymentAlgorithm>();
+            logger = new Mock<ILogger<PaymentService>>();
             paymentAlgorithms = new List<IPaymentAlgorithm>
             {
                 cardPayment.Object,
@@ -30,7 +34,7 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
         {
             Assert.ThrowsException<ArgumentNullException>(() =>
             {
-                PaymentService paymentService = new PaymentService(null, paymentAlgorithms);
+                PaymentService paymentService = new PaymentService(null, paymentAlgorithms, logger.Object);
             });
         }
 
@@ -39,7 +43,7 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
         {
             Assert.ThrowsException<ArgumentNullException>(() =>
             {
-                PaymentService paymentService = new PaymentService(buyView.Object, null);
+                PaymentService paymentService = new PaymentService(buyView.Object, null, logger.Object);
             });
         }
     }

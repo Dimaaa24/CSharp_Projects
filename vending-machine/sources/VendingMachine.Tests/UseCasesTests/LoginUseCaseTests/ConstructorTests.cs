@@ -1,8 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Nagarro.VendingMachine.Authentication;
+using Nagarro.VendingMachine.Payment;
 using Nagarro.VendingMachine.PresentationLayer;
 using Nagarro.VendingMachine.UseCases;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.UseCasesTests.LoginUseCaseTests
 {
@@ -11,10 +13,12 @@ namespace VendingMachine.Tests.UseCasesTests.LoginUseCaseTests
     {
         private readonly Mock<IAuthenticationService> authenticationService;
         private readonly Mock<ILoginView> loginView;
+        private readonly Mock<ILogger<LoginUseCase>> logger;
 
         public ConstructorTests()
         {
             authenticationService = new Mock<IAuthenticationService>();
+            logger = new Mock<ILogger<LoginUseCase>>();
             loginView = new Mock<ILoginView>();
         }
 
@@ -23,7 +27,7 @@ namespace VendingMachine.Tests.UseCasesTests.LoginUseCaseTests
         {
             Assert.ThrowsException<ArgumentNullException>(() =>
             {
-                LoginUseCase loginUseCase = new LoginUseCase(null, loginView.Object);
+                LoginUseCase loginUseCase = new LoginUseCase(null, loginView.Object, logger.Object);
             });
         }
 
@@ -32,24 +36,8 @@ namespace VendingMachine.Tests.UseCasesTests.LoginUseCaseTests
         {
             Assert.ThrowsException<ArgumentNullException>(() =>
             {
-                LoginUseCase loginUseCase = new LoginUseCase(authenticationService.Object, null);
+                LoginUseCase loginUseCase = new LoginUseCase(authenticationService.Object, null, logger.Object);
             });
-        }
-
-        [TestMethod]
-        public void WhenInitializingTheUseCase_NameIsCorrect()
-        {
-            LoginUseCase loginUseCase = new LoginUseCase(authenticationService.Object, loginView.Object);
-
-            Assert.AreEqual("login", loginUseCase.Name);
-        }
-
-        [TestMethod]
-        public void WhenInitializingTheUseCase_DescriptionHasValue()
-        {
-            LoginUseCase loginUseCase = new LoginUseCase(authenticationService.Object, loginView.Object);
-
-            Assert.IsNotNull(loginUseCase.Description);
         }
     }
 }

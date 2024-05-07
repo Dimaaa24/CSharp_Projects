@@ -22,20 +22,25 @@ namespace Nagarro.VendingMachine.Presentation
                 Console.ReadKey();
                 return;
             }
-            DisplayLine(new string('=', 80), ConsoleColor.Cyan);
-            foreach (Product product in products)
+            else
             {
-                if (product.Quantity > 0)
+                DisplayLine(new string('=', 80), ConsoleColor.Cyan);
+                DisplayLine("ID\t\tName\t\tPrice\t\tStock", ConsoleColor.Cyan);
+                DisplayLine(new string('=', 80), ConsoleColor.Cyan);
+                foreach (Product product in products)
                 {
-                    DisplayLine($"ID:{product.Id} \t Name:{product.Name} \t Price:{product.Price} lei \t Stock:{product.Quantity}", ConsoleColor.DarkCyan);
+                    if (product.Quantity > 0)
+                    {
+                        DisplayLine($"{product.Id} \t |  {product.Name} \t |  {product.Price} lei \t  |  {product.Quantity}", ConsoleColor.DarkCyan);
+                    }
                 }
+                DisplayLine(new string('=', 80), ConsoleColor.Cyan);
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
+                DisplayLine("Go back->Enter", ConsoleColor.DarkCyan);
+                Console.ReadKey();
             }
-            DisplayLine(new string('=', 80), ConsoleColor.Cyan);
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            DisplayLine("Go back->Enter", ConsoleColor.DarkCyan);
-            Console.ReadKey();
         }
     }
 }

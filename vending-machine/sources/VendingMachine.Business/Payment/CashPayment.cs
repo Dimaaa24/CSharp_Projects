@@ -1,16 +1,15 @@
-﻿using Nagarro.VendingMachine.Exceptions;
-using Nagarro.VendingMachine.PresentationLayer;
+﻿using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace Nagarro.VendingMachine.Payment
 {
     internal class CashPayment : IPaymentAlgorithm
-    {
-        public string Name => "Cash Payment";
-
+    { 
         private readonly ICashPaymentView cashPaymentView;
-
         private readonly List<decimal> banknotes = new List<decimal> { 100, 50, 10, 20, 5, 1 };
         private readonly List<decimal> coins = new List<decimal> { 0.5m, 0.1m, 0.05m, 0.01m };
+
+        public string Name => "Cash Payment";
 
         public CashPayment(ICashPaymentView cashPaymentView)
         {
@@ -28,7 +27,7 @@ namespace Nagarro.VendingMachine.Payment
             {
                 input = cashPaymentView.AskForMoney(productPrice, inputMoney);
 
-                if(input == "x" || input == "X")
+                if (input == "x" || input == "X")
                 {
                     cashPaymentView.CashPaymentCanceled(inputMoney);
 
@@ -89,13 +88,15 @@ namespace Nagarro.VendingMachine.Payment
             }
         }
 
-        public bool Run(decimal price)
+        public bool Run(decimal price, out string paymentType)
         {
+            paymentType = "cash";
+
             cashPaymentView.TotalOwedBalance(price);
 
             decimal paidMoney = MoneyInsert(price);
 
-            if(paidMoney == -1)
+            if (paidMoney == -1)
             {
                 return false;
             }

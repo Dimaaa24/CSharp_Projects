@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <AssemblyName>RemoteLearning.OneHundred.Presentation</AssemblyName>
+        <RootNamespace>RemoteLearning.OneHundred.Presentation</RootNamespace>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Nagarro</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>One Hundred</Product>
+        <Description>This is an exercise used in the Remote Learning program from Nagarro.</Description>
+        <Copyright>Copyright © Nagarro 2023</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ConsoleTools" Version="0.5.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\OneHundred.Business\OneHundred.Business.csproj" />
+    </ItemGroup>
+
+</Project>

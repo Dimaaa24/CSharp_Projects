@@ -2,6 +2,7 @@
 using Moq;
 using Nagarro.VendingMachine.Payment;
 using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.PaymentTests.CardPaymentTests
 {
@@ -14,6 +15,7 @@ namespace VendingMachine.Tests.PaymentTests.CardPaymentTests
         public RunTests()
         {
             cardPaymentView = new Mock<ICardPaymentView>();
+
             cardPayment = new CardPayment(cardPaymentView.Object);
         }
 
@@ -24,11 +26,10 @@ namespace VendingMachine.Tests.PaymentTests.CardPaymentTests
                 .Setup(x => x.AskForCardNumber())
                 .Returns("0000000000000000");
 
-            cardPayment.Run(It.IsAny<decimal>());
+            cardPayment.Run(It.IsAny<decimal>(), out It.Ref<string>.IsAny);
 
             cardPaymentView.Verify(x => x.AskForCardNumber(), Times.Once());
         }
-
 
         [TestMethod]
         public void HavingACardPaymentInstance_WhenCardNumberIsNotValid_InvalidCardNumberIsCalled()
@@ -38,9 +39,9 @@ namespace VendingMachine.Tests.PaymentTests.CardPaymentTests
                 .Returns("1000000000000000");
             cardPaymentView
                 .Setup(x => x.CancelCardPayment())
-                .Returns(true);
+                .Returns(1);
 
-            cardPayment.Run(It.IsAny<decimal>());
+            cardPayment.Run(It.IsAny<decimal>(), out It.Ref<string>.IsAny);
 
             cardPaymentView.Verify(x => x.InvalidCardNumber(), Times.Once());
         }
@@ -53,9 +54,9 @@ namespace VendingMachine.Tests.PaymentTests.CardPaymentTests
                 .Returns("1000000000000000");
             cardPaymentView
                 .Setup(x => x.CancelCardPayment())
-                .Returns(true);
+                .Returns(1);
 
-            cardPayment.Run(It.IsAny<decimal>());
+            cardPayment.Run(It.IsAny<decimal>(), out It.Ref<string>.IsAny);
 
             cardPaymentView.Verify(x => x.CancelCardPayment(), Times.Once());
         }
@@ -69,11 +70,10 @@ namespace VendingMachine.Tests.PaymentTests.CardPaymentTests
 
             cardPaymentView
                 .Setup(x => x.CancelCardPayment())
-                .Returns(true);
+                .Returns(1);
 
-            Assert.AreEqual(false, cardPayment.Run(It.IsAny<decimal>()));
+            Assert.AreEqual(false, cardPayment.Run(It.IsAny<decimal>(), out It.Ref<string>.IsAny));
         }
-
 
         [TestMethod]
         public void HavingACardPaymentInstance_WhenCardNumberIsValid_CardAcceptedCalled()
@@ -82,7 +82,7 @@ namespace VendingMachine.Tests.PaymentTests.CardPaymentTests
                 .Setup(x => x.AskForCardNumber())
                 .Returns("0000000000000000");
 
-            cardPayment.Run(It.IsAny<decimal>());
+            cardPayment.Run(It.IsAny<decimal>(), out It.Ref<string>.IsAny);
 
             cardPaymentView.Verify(x => x.CardAccepted(), Times.Once());
         }
@@ -94,7 +94,7 @@ namespace VendingMachine.Tests.PaymentTests.CardPaymentTests
                 .Setup(x => x.AskForCardNumber())
                 .Returns("0000000000000000");
 
-            Assert.AreEqual(true, cardPayment.Run(It.IsAny<decimal>()));
+            Assert.AreEqual(true, cardPayment.Run(It.IsAny<decimal>(), out It.Ref<string>.IsAny));
         }
     }
 }

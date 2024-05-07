@@ -1,10 +1,12 @@
-﻿namespace Nagarro.VendingMachine.Presentation
+﻿using VendingMachine.Presentation.Commands;
+
+namespace Nagarro.VendingMachine.Presentation
 {
     internal class CommandSelectorControl : DisplayBase
     {
-        public IEnumerable<IUseCase> UseCases { get; set; }
+        public IEnumerable<ICommands> commandsList { get; set; }
 
-        public IUseCase Display()
+        public ICommands Display()
         {
             DisplayUseCases();
             return SelectUseCase();
@@ -16,44 +18,44 @@
             DisplayLine("\t      ~  Commands Menu  ~", ConsoleColor.Magenta);
             DisplayLine(new string('-', 50), ConsoleColor.Magenta);
 
-            foreach (IUseCase useCase in UseCases)
-                DisplayUseCase(useCase);
+            foreach (ICommands command in commandsList)
+                DisplayCommand(command);
         }
 
-        private void DisplayUseCase(IUseCase useCase)
+        private void DisplayCommand(ICommands command)
         {
-            Display(useCase.Name, ConsoleColor.Magenta);
-            DisplayLine($"- {useCase.Description}", ConsoleColor.DarkMagenta);
+            Display(command.Name, ConsoleColor.Magenta);
+            DisplayLine($"- {command.Description}", ConsoleColor.DarkMagenta);
         }
 
-        private IUseCase SelectUseCase()
+        private ICommands SelectUseCase()
         {
             while (true)
             {
                 string rawValue = ReadCommandName();
-                IUseCase selectedUseCase = FindUseCase(rawValue);
+                ICommands selectedCommand = FindUseCase(rawValue);
 
-                if (selectedUseCase != null)
-                    return selectedUseCase;
+                if (selectedCommand != null)
+                    return selectedCommand;
 
                 DisplayLine("Invalid command. Please try again.", ConsoleColor.Red);
             }
         }
 
-        private IUseCase FindUseCase(string rawValue)
+        private ICommands FindUseCase(string rawValue)
         {
-            IUseCase selectedUseCase = null;
+            ICommands selectedCommand = null;
 
-            foreach (IUseCase x in UseCases)
+            foreach (ICommands command in commandsList)
             {
-                if (x.Name == rawValue)
+                if (command.Name == rawValue)
                 {
-                    selectedUseCase = x;
+                    selectedCommand = command;
                     break;
                 }
             }
 
-            return selectedUseCase;
+            return selectedCommand;
         }
 
         private string ReadCommandName()

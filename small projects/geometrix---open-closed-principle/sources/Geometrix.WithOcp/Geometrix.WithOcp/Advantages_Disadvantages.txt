@@ -1,9 +1,0 @@
-﻿Advantages
--more flexible code
--cleaner
--easier to understand
--can modify classes separately without changing geometricshapes for ex.
-
-Disadvantaged
--more classes
--the no ocp feels more compact but it's harder to read

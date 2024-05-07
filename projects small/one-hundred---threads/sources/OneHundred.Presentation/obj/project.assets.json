@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ConsoleTools/0.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.2/DustInTheWind.ConsoleTools.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/DustInTheWind.ConsoleTools.dll": {}
+        },
+        "resource": {
+          "lib/netcoreapp2.2/fr/DustInTheWind.ConsoleTools.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp2.2/ro/DustInTheWind.ConsoleTools.resources.dll": {
+            "locale": "ro"
+          }
+        }
+      },
+      "RemoteLearning.OneHundred.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RemoteLearning.OneHundred.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RemoteLearning.OneHundred.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleTools/0.5.4": {
+      "sha512": "zLGx76ls9do1Ab1QpDbVrjBCdduY5Bj8ZTL33l2nmLatYJNXjDfpKgjt9kz4z1+sl39c1xdKFxffpfqeM51RJw==",
+      "type": "package",
+      "path": "consoletools/0.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "changelog.txt",
+        "consoletools.0.5.4.nupkg.sha512",
+        "consoletools.nuspec",
+        "lib/net45/DustInTheWind.ConsoleTools.dll",
+        "lib/net45/fr/DustInTheWind.ConsoleTools.resources.dll",
+        "lib/net45/ro/DustInTheWind.ConsoleTools.resources.dll",
+        "lib/netcoreapp2.2/DustInTheWind.ConsoleTools.dll",
+        "lib/netcoreapp2.2/fr/DustInTheWind.ConsoleTools.resources.dll",
+        "lib/netcoreapp2.2/ro/DustInTheWind.ConsoleTools.resources.dll",
+        "readme.txt"
+      ]
+    },
+    "RemoteLearning.OneHundred.Business/1.0.0": {
+      "type": "project",
+      "path": "../OneHundred.Business/OneHundred.Business.csproj",
+      "msbuildProject": "../OneHundred.Business/OneHundred.Business.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ConsoleTools >= 0.5.4",
+      "RemoteLearning.OneHundred.Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sergi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sergi\\OneDrive\\Desktop\\RL_Dimitrie_Gruia\\Homeworks\\one-hundred---threads\\sources\\OneHundred.Presentation\\OneHundred.Presentation.csproj",
+      "projectName": "RemoteLearning.OneHundred.Presentation",
+      "projectPath": "C:\\Users\\sergi\\OneDrive\\Desktop\\RL_Dimitrie_Gruia\\Homeworks\\one-hundred---threads\\sources\\OneHundred.Presentation\\OneHundred.Presentation.csproj",
+      "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sergi\\OneDrive\\Desktop\\RL_Dimitrie_Gruia\\Homeworks\\one-hundred---threads\\sources\\OneHundred.Presentation\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\sergi\\OneDrive\\Desktop\\RL_Dimitrie_Gruia\\Homeworks\\one-hundred---threads\\sources\\OneHundred.Business\\OneHundred.Business.csproj": {
+              "projectPath": "C:\\Users\\sergi\\OneDrive\\Desktop\\RL_Dimitrie_Gruia\\Homeworks\\one-hundred---threads\\sources\\OneHundred.Business\\OneHundred.Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "ConsoleTools": {
+            "target": "Package",
+            "version": "[0.5.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

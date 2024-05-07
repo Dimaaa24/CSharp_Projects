@@ -1,5 +1,6 @@
 ﻿using Nagarro.VendingMachine.Authentication;
 using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace Nagarro.VendingMachine.UseCases
 {
@@ -7,21 +8,19 @@ namespace Nagarro.VendingMachine.UseCases
     {
         private readonly IAuthenticationService authenticationService;
         private readonly ILoginView loginView;
+        private readonly ILogger<LoginUseCase> logger;
 
-        public string Name => "login";
 
-        public string Description => "Get access to administration section.";
-
-        public bool CanExecute => !authenticationService.IsUserAuthenticated;
-
-        public LoginUseCase(IAuthenticationService authenticationService, ILoginView loginView)
+        public LoginUseCase(IAuthenticationService authenticationService, ILoginView loginView, ILogger<LoginUseCase> logger)
         {
             this.authenticationService = authenticationService ?? throw new ArgumentNullException(nameof(authenticationService));
             this.loginView = loginView ?? throw new ArgumentNullException(nameof(loginView));
+            this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         public void Execute()
         {
+            logger.Info("Login use case initialized.");
             string password = loginView.AskForPassword();
             authenticationService.Login(password);
         }

@@ -46,7 +46,7 @@ namespace Nagarro.VendingMachine.Presentation
             Console.WriteLine();
             DisplayLine($"User has been paid back {paidMoney} lei!", ConsoleColor.Green);
             Console.WriteLine();
-            DisplayLine("Cash payment canceled! Press enter to go back.",ConsoleColor.Red);
+            DisplayLine("Cash payment canceled! Press enter to go back.", ConsoleColor.Red);
             Console.ReadKey();
         }
     }

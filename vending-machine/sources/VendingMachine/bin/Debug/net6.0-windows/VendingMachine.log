@@ -1,0 +1,643 @@
+2024-04-15 14:26:01,552 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:26:50,574 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:29:30,516 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:29:33,312 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-15 14:29:36,191 [1] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Payment canceled
+2024-04-15 14:31:00,202 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-15 14:31:02,425 [1] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Payment canceled
+2024-04-15 14:31:04,106 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-15 14:31:06,232 [1] INFO  Nagarro.VendingMachine.Payment.PaymentService [(null)] - Payment service initialized.
+2024-04-15 14:31:08,807 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Product Cookie succsefully paid 5 and dispensed using cash.
+2024-04-15 14:31:12,851 [1] INFO  VendingMachine.Presentation.Commands.ExitCommand [(null)] - VendingMachine application ended.
+2024-04-15 14:33:24,508 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:33:30,797 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:33:42,280 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-15 14:33:44,899 [1] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Payment canceled
+2024-04-15 14:33:47,353 [1] INFO  VendingMachine.Presentation.Commands.ExitCommand [(null)] - VendingMachine application ended.
+2024-04-15 14:34:34,574 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:34:49,418 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:35:14,502 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:36:41,160 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-15 14:36:44,367 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-15 14:36:46,425 [1] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Payment canceled
+[2024-04-17 14:46:07,099] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 14:46:12,713] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:46:14,497] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 100.
+[2024-04-17 14:46:16,610] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 14:46:19,203] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 14:46:21,003] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:46:31,701] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 14:46:34,301] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 14:46:36,905] ERROR Nagarro.VendingMachine.Authentication.AuthenticationService - Invalid password.
+[2024-04-17 14:46:36,965] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 26
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 14:46:40,154] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 14:46:41,004] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully authenticated
+[2024-04-17 14:46:43,472] INFO Nagarro.VendingMachine.UseCases.LogoutUseCase - Logout use case initialized.
+[2024-04-17 14:46:43,472] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully logged out
+[2024-04-17 14:46:46,357] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-17 14:51:59,861] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 14:52:03,111] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:52:04,608] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 14:52:08,441] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 14:52:09,842] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:52:14,733] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 14:52:16,262] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:52:23,147] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 14:52:25,860] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-17 14:54:11,539] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 14:54:16,032] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:54:18,302] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 14:54:19,860] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 14:54:23,012] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 14:54:24,409] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:54:29,498] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 14:54:31,949] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:54:40,092] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 14:54:42,006] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:54:44,755] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 14:54:47,050] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 14:54:48,450] ERROR Nagarro.VendingMachine.Authentication.AuthenticationService - Invalid password.
+[2024-04-17 14:54:48,484] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 26
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 14:54:51,154] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 14:54:52,785] ERROR Nagarro.VendingMachine.Authentication.AuthenticationService - Invalid password.
+[2024-04-17 14:54:52,796] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 26
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 14:54:56,535] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-17 14:58:09,308] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 14:58:11,505] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:58:12,495] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 14:58:12,894] ERROR Nagarro.VendingMachine.VendingMachineApplication - Input string was not in a correct format.   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Nagarro.VendingMachine.Presentation.BuyView.RequestId() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\BuyView.cs:line 24
+   at Nagarro.VendingMachine.UseCases.BuyUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\BuyUseCase.cs:line 36
+   at VendingMachine.Presentation.Commands.BuyCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\BuyCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 14:58:14,817] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 14:58:19,822] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 15:00:05,451] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:00:10,609] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:00:12,466] ERROR Nagarro.VendingMachine.Authentication.AuthenticationService - Invalid password.
+[2024-04-17 15:00:12,503] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 26
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:00:20,834] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:00:22,376] ERROR Nagarro.VendingMachine.Authentication.AuthenticationService - Invalid password.
+[2024-04-17 15:00:22,386] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 26
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:00:26,180] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:00:27,924] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:00:32,207] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 15:07:58,653] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:08:00,518] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:08:01,369] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:09:18,061] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:09:20,595] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:09:21,682] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:09:24,335] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 15:09:25,760] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:09:31,554] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 15:09:32,702] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:09:38,790] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 15:09:41,889] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-17 15:17:03,556] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:17:06,685] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:17:08,115] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:17:09,940] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:17:12,546] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 15:17:13,744] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:17:14,360] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:17:17,087] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID -1.
+[2024-04-17 15:17:19,283] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID -1.
+[2024-04-17 15:17:21,534] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:17:27,113] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 15:17:31,000] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-17 15:21:07,454] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:21:09,017] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:21:09,512] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:23:32,036] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:23:33,947] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:23:34,763] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:23:41,837] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 15:23:43,196] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:23:45,467] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 15:23:46,808] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:23:52,734] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 15:23:55,121] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:23:57,031] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:24:05,647] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-17 15:31:03,604] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:31:06,364] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:31:06,959] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:31:12,182] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:31:13,505] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:31:14,535] ERROR Nagarro.VendingMachine.VendingMachineApplication - Input string was not in a correct format.   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Nagarro.VendingMachine.Presentation.BuyView.RequestId() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\BuyView.cs:line 24
+   at Nagarro.VendingMachine.UseCases.BuyUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\BuyUseCase.cs:line 36
+   at VendingMachine.Presentation.Commands.BuyCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\BuyCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:37:36,938] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:37:38,063] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:37:39,015] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:37:44,627] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 15:37:47,042] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:37:47,556] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:37:49,707] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-17 15:39:44,255] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:39:46,133] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:39:46,710] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:39:48,307] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:39:49,311] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:39:50,281] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:39:56,737] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 15:39:58,120] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:40:02,602] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment failed.
+[2024-04-17 15:40:04,745] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:40:06,976] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Payment canceled.
+[2024-04-17 15:40:48,665] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:40:50,759] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:40:52,140] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:40:57,927] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:40:58,592] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:41:00,304] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:41:01,485] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:41:03,872] ERROR Nagarro.VendingMachine.VendingMachineApplication - Input string was not in a correct format.   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Nagarro.VendingMachine.Presentation.BuyView.RequestId() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\BuyView.cs:line 24
+   at Nagarro.VendingMachine.UseCases.BuyUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\BuyUseCase.cs:line 36
+   at VendingMachine.Presentation.Commands.BuyCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\BuyCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:42:32,094] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 15:42:35,140] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 15:42:36,673] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 15:42:39,980] ERROR Nagarro.VendingMachine.VendingMachineApplication - Input string was not in a correct format.   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Nagarro.VendingMachine.Presentation.BuyView.RequestId() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\BuyView.cs:line 24
+   at Nagarro.VendingMachine.UseCases.BuyUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\BuyUseCase.cs:line 36
+   at VendingMachine.Presentation.Commands.BuyCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\BuyCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 15:42:43,146] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 15:42:44,213] ERROR Nagarro.VendingMachine.VendingMachineApplication - Invalid password   at Nagarro.VendingMachine.Authentication.AuthenticationService.Login(String password) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Authentication\AuthenticationService.cs:line 25
+   at Nagarro.VendingMachine.UseCases.LoginUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LoginUseCase.cs:line 25
+   at VendingMachine.Presentation.Commands.LoginCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LoginCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 19:21:45,842] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:21:48,593] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:21:53,314] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:22:03,415] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:22:40,265] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:22:43,091] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:22:49,254] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 19:22:50,005] ERROR Nagarro.VendingMachine.VendingMachineApplication - The method or operation is not implemented.   at VendingMachine.DataAccess.Sqlite.EFSqliteProductRepository.GetById(Int32 id) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteProductRepository.cs:line 27
+   at Nagarro.VendingMachine.UseCases.BuyUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\BuyUseCase.cs:line 37
+   at VendingMachine.Presentation.Commands.BuyCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\BuyCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 19:45:28,778] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:45:31,007] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:45:40,371] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 19:45:42,538] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 9.
+[2024-04-17 19:45:48,234] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Soda succsefully paid 20.0 and dispensed using cash.
+[2024-04-17 19:45:54,443] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:46:04,501] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 19:46:08,516] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Cookie succsefully paid 5.0 and dispensed using cash.
+[2024-04-17 19:46:12,770] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 19:46:18,899] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Cookie succsefully paid 5.0 and dispensed using card.
+[2024-04-17 19:46:22,153] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 19:46:27,173] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Water succsefully paid 5.0 and dispensed using cash.
+[2024-04-17 19:46:30,540] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:46:37,881] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:46:40,475] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:47:56,508] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:48:00,819] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:48:54,273] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:48:55,707] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:49:27,625] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:49:31,902] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:50:35,146] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:50:37,156] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:50:50,847] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 19:50:56,672] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using cash.
+[2024-04-17 19:51:01,956] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:51:26,647] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:51:28,592] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:53:36,528] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:53:39,080] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:54:57,098] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:54:58,252] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:55:39,695] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:55:41,016] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:56:06,231] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:56:07,925] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:56:37,931] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:56:39,785] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:57:22,524] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:57:24,433] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:57:53,532] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:57:57,213] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 19:58:48,007] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 19:59:01,079] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 20:01:22,613] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:01:24,783] ERROR Nagarro.VendingMachine.VendingMachineApplication - An exception was thrown while activating Nagarro.VendingMachine.UseCases.LookUseCase -> VendingMachine.DataAccess.Sqlite.EFSqliteProductRepository -> VendingMachine.DataAccess.Sqlite.ProductContext.   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   at VendingMachine.UseCaseFactory.Create[IUseCase]() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\UseCaseFactory.cs:line 17
+   at VendingMachine.Presentation.Commands.LookCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LookCommand.cs:line 21
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35Autofac.Core.DependencyResolutionException: None of the constructors found on type 'VendingMachine.DataAccess.Sqlite.ProductContext' can be invoked with the available services and parameters:
+Cannot resolve parameter 'System.String DbPath' of constructor 'Void .ctor(System.String)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+[2024-04-17 20:02:12,639] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:02:18,603] ERROR Nagarro.VendingMachine.VendingMachineApplication - An exception was thrown while activating Nagarro.VendingMachine.UseCases.LookUseCase -> VendingMachine.DataAccess.Sqlite.EFSqliteProductRepository.   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   at VendingMachine.UseCaseFactory.Create[IUseCase]() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\UseCaseFactory.cs:line 17
+   at VendingMachine.Presentation.Commands.LookCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LookCommand.cs:line 21
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35Autofac.Core.DependencyResolutionException: None of the constructors found on type 'VendingMachine.DataAccess.Sqlite.EFSqliteProductRepository' can be invoked with the available services and parameters:
+Cannot resolve parameter 'VendingMachine.DataAccess.Sqlite.ProductContext products' of constructor 'Void .ctor(VendingMachine.DataAccess.Sqlite.ProductContext)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+[2024-04-17 20:18:14,947] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:20:11,498] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:20:14,801] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 20:20:20,302] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using cash.
+[2024-04-17 20:20:21,289] ERROR Nagarro.VendingMachine.VendingMachineApplication - The entity type 'Sale' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteSaleRepository.CreateNewSale(Sale sale) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteSaleRepository.cs:line 18
+   at Nagarro.VendingMachine.UseCases.BuyUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\BuyUseCase.cs:line 69
+   at VendingMachine.Presentation.Commands.BuyCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\BuyCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 20:20:23,757] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 20:20:30,807] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Water succsefully paid 5.0 and dispensed using card.
+[2024-04-17 20:20:31,494] ERROR Nagarro.VendingMachine.VendingMachineApplication - The entity type 'Sale' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteSaleRepository.CreateNewSale(Sale sale) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteSaleRepository.cs:line 18
+   at Nagarro.VendingMachine.UseCases.BuyUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\BuyUseCase.cs:line 69
+   at VendingMachine.Presentation.Commands.BuyCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\BuyCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 20:22:39,348] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:22:42,135] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 20:22:42,854] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully authenticated
+[2024-04-17 20:22:46,946] INFO Nagarro.VendingMachine.UseCases.SalesReportUseCase - SalesReport usecase initialized.
+[2024-04-17 20:22:54,447] ERROR Nagarro.VendingMachine.VendingMachineApplication - The entity type 'Sale' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteSaleRepository.GetAllInAPeriod(DateTime startDate, DateTime endDate) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteSaleRepository.cs:line 24
+   at Nagarro.VendingMachine.UseCases.SalesReportUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\SalesReportUseCase.cs:line 34
+   at VendingMachine.Presentation.Commands.SalesReportCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\SalesReportCommand.cs:line 24
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 20:23:39,602] INFO VendingMachine.Business.UseCases.StockReportUseCase - StockReport usecase initialized.
+[2024-04-17 20:23:41,076] INFO VendingMachine.Business.UseCases.StockReportUseCase - Stock report generated succesfully
+[2024-04-17 20:23:45,101] INFO Nagarro.VendingMachine.UseCases.SalesReportUseCase - SalesReport usecase initialized.
+[2024-04-17 20:23:51,359] ERROR Nagarro.VendingMachine.VendingMachineApplication - The entity type 'Sale' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteSaleRepository.GetAllInAPeriod(DateTime startDate, DateTime endDate) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteSaleRepository.cs:line 24
+   at Nagarro.VendingMachine.UseCases.SalesReportUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\SalesReportUseCase.cs:line 34
+   at VendingMachine.Presentation.Commands.SalesReportCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\SalesReportCommand.cs:line 24
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 20:26:23,498] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:26:26,379] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-17 20:26:31,112] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 20:26:35,896] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using cash.
+[2024-04-17 20:26:40,318] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 20:26:47,020] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Soda succsefully paid 20.0 and dispensed using card.
+[2024-04-17 20:26:50,827] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 20:26:52,411] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully authenticated
+[2024-04-17 20:26:56,696] INFO VendingMachine.Business.UseCases.StockReportUseCase - StockReport usecase initialized.
+[2024-04-17 20:26:56,877] INFO VendingMachine.Business.UseCases.StockReportUseCase - Stock report generated succesfully
+[2024-04-17 20:27:00,071] INFO Nagarro.VendingMachine.UseCases.SalesReportUseCase - SalesReport usecase initialized.
+[2024-04-17 20:27:08,869] ERROR Nagarro.VendingMachine.VendingMachineApplication - SQLite Error 1: 'no such column: s.Id'.   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteSaleRepository.GetAllInAPeriod(DateTime startDate, DateTime endDate) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteSaleRepository.cs:line 24
+   at Nagarro.VendingMachine.UseCases.SalesReportUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\SalesReportUseCase.cs:line 34
+   at VendingMachine.Presentation.Commands.SalesReportCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\SalesReportCommand.cs:line 24
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 20:28:47,968] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:29:55,341] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:29:57,033] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 20:30:03,666] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using cash.
+[2024-04-17 20:30:07,260] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 20:30:08,589] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully authenticated
+[2024-04-17 20:30:12,119] INFO Nagarro.VendingMachine.UseCases.SalesReportUseCase - SalesReport usecase initialized.
+[2024-04-17 20:30:20,529] ERROR Nagarro.VendingMachine.VendingMachineApplication - SQLite Error 1: 'no such column: s.Id'.   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteSaleRepository.GetAllInAPeriod(DateTime startDate, DateTime endDate) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteSaleRepository.cs:line 24
+   at Nagarro.VendingMachine.UseCases.SalesReportUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\SalesReportUseCase.cs:line 34
+   at VendingMachine.Presentation.Commands.SalesReportCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\SalesReportCommand.cs:line 24
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-17 20:32:20,743] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-17 20:32:25,271] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-17 20:32:35,615] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using card.
+[2024-04-17 20:32:39,033] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-17 20:32:39,792] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully authenticated
+[2024-04-17 20:32:42,493] INFO Nagarro.VendingMachine.UseCases.SalesReportUseCase - SalesReport usecase initialized.
+[2024-04-17 20:32:51,200] INFO Nagarro.VendingMachine.UseCases.SalesReportUseCase - Sales report generated succesfully
+[2024-04-19 18:50:38,874] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-19 18:50:41,747] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-19 18:50:47,518] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-19 18:50:52,770] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using cash.
+[2024-04-19 18:50:56,382] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-19 18:50:57,280] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully authenticated
+[2024-04-19 18:51:00,827] INFO VendingMachine.Business.UseCases.StockReportUseCase - StockReport usecase initialized.
+[2024-04-19 18:51:00,955] INFO VendingMachine.Business.UseCases.StockReportUseCase - Stock report generated succesfully
+[2024-04-19 18:51:04,786] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-19 18:51:10,867] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-19 18:51:12,813] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-19 18:51:19,222] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-19 18:51:23,832] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using cash.
+[2024-04-19 18:51:25,891] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-19 18:51:29,075] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-19 20:18:20,940] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-19 20:18:24,063] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-19 20:18:24,139] ERROR Nagarro.VendingMachine.VendingMachineApplication - Value cannot be null. (Parameter 'connectionString')   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqliteDbContextOptionsBuilderExtensions.UseSqlite(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqliteOptionsAction)
+   at VendingMachine.DataAccess.Sqlite.ProductContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\ProductContext.cs:line 22
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteProductRepository.GetAll() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteProductRepository.cs:line 28
+   at Nagarro.VendingMachine.UseCases.LookUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LookUseCase.cs:line 24
+   at VendingMachine.Presentation.Commands.LookCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LookCommand.cs:line 21
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-19 20:19:31,187] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-19 20:19:33,058] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-19 20:19:33,106] ERROR Nagarro.VendingMachine.VendingMachineApplication - Value cannot be null. (Parameter 'connectionString')   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqliteDbContextOptionsBuilderExtensions.UseSqlite(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqliteOptionsAction)
+   at VendingMachine.DataAccess.Sqlite.ProductContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\ProductContext.cs:line 22
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteProductRepository.GetAll() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteProductRepository.cs:line 28
+   at Nagarro.VendingMachine.UseCases.LookUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LookUseCase.cs:line 24
+   at VendingMachine.Presentation.Commands.LookCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LookCommand.cs:line 21
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-19 20:19:56,423] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-19 20:19:58,237] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-19 20:19:58,312] ERROR Nagarro.VendingMachine.VendingMachineApplication - Value cannot be null. (Parameter 'connectionString')   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqliteDbContextOptionsBuilderExtensions.UseSqlite(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqliteOptionsAction)
+   at VendingMachine.DataAccess.Sqlite.ProductContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\ProductContext.cs:line 22
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteProductRepository.GetAll() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteProductRepository.cs:line 28
+   at Nagarro.VendingMachine.UseCases.LookUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LookUseCase.cs:line 24
+   at VendingMachine.Presentation.Commands.LookCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LookCommand.cs:line 21
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-19 20:20:59,278] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-19 20:21:01,741] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-19 20:21:08,131] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-19 20:21:11,386] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Cookie succsefully paid 5.0 and dispensed using cash.
+[2024-04-19 20:21:15,052] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-19 21:16:03,192] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-19 21:16:04,994] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-21 13:04:52,128] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-21 13:04:56,006] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-21 13:04:56,095] ERROR Nagarro.VendingMachine.VendingMachineApplication - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at VendingMachine.DataAccess.Sqlite.EFSqliteProductRepository.GetAll() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\EFSqliteProductRepository.cs:line 28
+   at Nagarro.VendingMachine.UseCases.LookUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\LookUseCase.cs:line 24
+   at VendingMachine.Presentation.Commands.LookCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\LookCommand.cs:line 21
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-21 13:11:00,381] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-21 13:11:01,600] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-21 13:15:47,051] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-21 13:15:48,776] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-21 13:18:16,209] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-21 13:18:17,961] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-21 13:24:19,955] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-21 13:24:23,411] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-21 14:02:18,944] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-21 14:02:20,488] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-21 14:02:24,288] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-21 14:02:27,241] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Cookie succsefully paid 5.0 and dispensed using cash.
+[2024-04-21 14:02:29,955] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-21 14:02:30,645] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully authenticated
+[2024-04-21 14:02:33,470] INFO VendingMachine.Business.UseCases.StockReportUseCase - StockReport usecase initialized.
+[2024-04-21 14:02:33,587] INFO VendingMachine.Business.UseCases.StockReportUseCase - Stock report generated succesfully
+[2024-04-21 14:02:36,847] INFO Nagarro.VendingMachine.UseCases.SalesReportUseCase - SalesReport usecase initialized.
+[2024-04-21 14:02:44,331] INFO Nagarro.VendingMachine.UseCases.SalesReportUseCase - Sales report generated succesfully
+[2024-04-21 14:03:34,297] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-21 14:03:36,232] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-21 14:05:11,719] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-21 14:05:12,916] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-22 20:19:23,741] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-22 20:19:25,836] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-22 20:19:30,295] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-22 20:19:33,966] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using cash.
+[2024-04-22 20:19:39,595] INFO Nagarro.VendingMachine.UseCases.LoginUseCase - Login use case initialized.
+[2024-04-22 20:19:41,535] INFO Nagarro.VendingMachine.Authentication.AuthenticationService - User succesfully authenticated
+[2024-04-22 20:19:44,432] INFO VendingMachine.Business.UseCases.StockReportUseCase - StockReport usecase initialized.
+[2024-04-22 20:19:44,642] INFO VendingMachine.Business.UseCases.StockReportUseCase - Stock report generated succesfully
+[2024-04-23 15:56:04,556] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 15:56:06,409] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 15:56:09,426] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-23 15:56:12,246] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Bagel succsefully paid 25.0 and dispensed using cash.
+[2024-04-23 15:56:15,460] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-23 21:24:40,107] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 22:57:29,591] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 22:57:33,603] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-23 22:57:36,355] ERROR Nagarro.VendingMachine.VendingMachineApplication - Input string was not in a correct format.   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Nagarro.VendingMachine.Presentation.BuyView.AskForPaymentMethod(List`1 paymentMethods) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\BuyView.cs:line 72
+   at Nagarro.VendingMachine.Payment.PaymentService.Execute(Decimal price, String& paymentType) in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\Payment\PaymentService.cs:line 32
+   at Nagarro.VendingMachine.UseCases.BuyUseCase.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\UseCases\BuyUseCase.cs:line 63
+   at VendingMachine.Presentation.Commands.BuyCommand.Execute() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Presentation\Commands\BuyCommand.cs:line 25
+   at Nagarro.VendingMachine.VendingMachineApplication.Run() in C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine\VendingMachineApplication.cs:line 35
+[2024-04-23 22:57:38,649] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-23 22:57:41,836] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Cookie succsefully paid 5.0 and dispensed using cash.
+[2024-04-23 22:57:45,974] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 22:57:49,869] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-23 22:57:51,358] ERROR Nagarro.VendingMachine.UseCases.BuyUseCase - Inputed invalid product ID 6.
+[2024-04-23 22:57:55,198] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Water succsefully paid 5.0 and dispensed using cash.
+[2024-04-23 22:57:57,505] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 22:58:00,822] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.
+[2024-04-23 23:31:45,897] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 23:31:49,648] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 23:32:27,292] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 23:32:30,158] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 23:32:40,756] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Buy use case initialized.
+[2024-04-23 23:32:45,256] INFO Nagarro.VendingMachine.UseCases.BuyUseCase - Product Coffee succsefully paid 15.0 and dispensed using cash.
+[2024-04-23 23:32:48,121] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 23:33:21,723] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 23:33:24,855] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 23:46:14,052] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 23:49:05,773] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 23:49:08,087] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 23:54:29,026] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+[2024-04-23 23:54:39,902] INFO Nagarro.VendingMachine.UseCases.LookUseCase - Look usecase initialized-products have been displayed.
+[2024-04-23 23:54:48,658] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application ended.

@@ -1,17 +1,26 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using Nagarro.VendingMachine.Authentication;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.AuthenticationServiceTests
 {
     [TestClass]
     public class LogoutTests
     {
-        private const string CorrectPassword = "supercalifragilisticexpialidocious";
+        private const string CorrectPassword = "test";
+        private readonly AuthenticationService authenticationService;
+        private readonly Mock<ILogger<AuthenticationService>> logger;
+
+        private LogoutTests()
+        {
+            logger = new Mock<ILogger<AuthenticationService>>();
+            authenticationService = new AuthenticationService(logger.Object);
+        }
 
         [TestMethod]
         public void HavingAnAuthenticatedUser_WhenLogout_ThenUserIsNotAuthenticated()
         {
-            AuthenticationService authenticationService = new AuthenticationService();
             authenticationService.Login(CorrectPassword);
 
             authenticationService.Logout();
@@ -22,8 +31,6 @@ namespace VendingMachine.Tests.AuthenticationServiceTests
         [TestMethod]
         public void HavingAnUnAuthenticatedUser_WhenLogout_ThenUserIsNotAuthenticated()
         {
-            AuthenticationService authenticationService = new AuthenticationService();
-
             authenticationService.Logout();
 
             Assert.IsFalse(authenticationService.IsUserAuthenticated);

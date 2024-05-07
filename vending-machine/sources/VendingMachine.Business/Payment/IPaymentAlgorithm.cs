@@ -4,6 +4,6 @@
     {
         string Name { get; }
 
-        bool Run(decimal price);
+        bool Run(decimal price, out string paymentType);
     }
 }

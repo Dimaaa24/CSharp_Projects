@@ -1,0 +1,11 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\bin\Debug\net6.0-windows\RemoteLearning.BigTree.ThirdPartyLibrary.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\bin\Debug\net6.0-windows\RemoteLearning.BigTree.ThirdPartyLibrary.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\bin\Debug\net6.0-windows\RemoteLearning.BigTree.ThirdPartyLibrary.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\obj\Debug\net6.0-windows\BigTree.ThirdPartyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\obj\Debug\net6.0-windows\BigTree.ThirdPartyLibrary.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\obj\Debug\net6.0-windows\BigTree.ThirdPartyLibrary.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\obj\Debug\net6.0-windows\BigTree.ThirdPartyLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\obj\Debug\net6.0-windows\RemoteLearning.BigTree.ThirdPartyLibrary.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\obj\Debug\net6.0-windows\refint\RemoteLearning.BigTree.ThirdPartyLibrary.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\obj\Debug\net6.0-windows\RemoteLearning.BigTree.ThirdPartyLibrary.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.ThirdPartyLibrary\obj\Debug\net6.0-windows\ref\RemoteLearning.BigTree.ThirdPartyLibrary.dll

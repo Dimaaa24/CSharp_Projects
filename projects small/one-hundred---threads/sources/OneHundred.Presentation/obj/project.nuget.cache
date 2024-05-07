@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tchEBJRwNjkVUDBrBWXHXJ0sIS1IGsIwURwjo66IU4LhxRFLFgQnqwT2uxoxbCXru+XqcDC5y+NXiY2fnZ9DVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sergi\\OneDrive\\Desktop\\RL_Dimitrie_Gruia\\Homeworks\\one-hundred---threads\\sources\\OneHundred.Presentation\\OneHundred.Presentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sergi\\.nuget\\packages\\consoletools\\0.5.4\\consoletools.0.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

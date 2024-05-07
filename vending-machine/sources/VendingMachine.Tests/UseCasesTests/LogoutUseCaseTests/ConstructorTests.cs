@@ -2,6 +2,7 @@
 using Moq;
 using Nagarro.VendingMachine.Authentication;
 using Nagarro.VendingMachine.UseCases;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.UseCasesTests.LogoutUseCaseTests
 {
@@ -9,10 +10,12 @@ namespace VendingMachine.Tests.UseCasesTests.LogoutUseCaseTests
     public class ConstructorTests
     {
         private readonly Mock<IAuthenticationService> authenticationService;
+        private readonly Mock<ILogger<LogoutUseCase>> logger;
 
         public ConstructorTests()
         {
             authenticationService = new Mock<IAuthenticationService>();
+            logger = new Mock<ILogger<LogoutUseCase>>();
         }
 
         [TestMethod]
@@ -20,24 +23,8 @@ namespace VendingMachine.Tests.UseCasesTests.LogoutUseCaseTests
         {
             Assert.ThrowsException<ArgumentNullException>(() =>
             {
-                new LogoutUseCase(null);
+                new LogoutUseCase(null, logger.Object);
             });
-        }
-
-        [TestMethod]
-        public void WhenInitializingTheUseCase_NameIsCorrect()
-        {
-            LogoutUseCase logoutUseCase = new LogoutUseCase(authenticationService.Object);
-
-            Assert.AreEqual("logout", logoutUseCase.Name);
-        }
-
-        [TestMethod]
-        public void WhenInitializingTheUseCase_DescriptionHasValue()
-        {
-            LogoutUseCase logoutUseCase = new LogoutUseCase(authenticationService.Object);
-
-            Assert.IsNotNull(logoutUseCase.Description);
         }
     }
 }

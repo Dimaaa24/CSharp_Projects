@@ -1,0 +1,58 @@
+{
+  "Sales": [
+    {
+      "Name": "Soda",
+      "Price": 20.0,
+      "PaymentMethod": "cash",
+      "Date": "2024-04-17T19:45:52"
+    },
+    {
+      "Name": "Cookie",
+      "Price": 5.0,
+      "PaymentMethod": "cash",
+      "Date": "2024-04-17T19:46:11"
+    },
+    {
+      "Name": "Cookie",
+      "Price": 5.0,
+      "PaymentMethod": "card",
+      "Date": "2024-04-17T19:46:20"
+    },
+    {
+      "Name": "Water",
+      "Price": 5.0,
+      "PaymentMethod": "cash",
+      "Date": "2024-04-17T19:46:29"
+    },
+    {
+      "Name": "Coffee",
+      "Price": 15.0,
+      "PaymentMethod": "cash",
+      "Date": "2024-04-17T19:50:58"
+    },
+    {
+      "Name": "Coffee",
+      "Price": 15.0,
+      "PaymentMethod": "cash",
+      "Date": "2024-04-17T20:26:37.6625746"
+    },
+    {
+      "Name": "Soda",
+      "Price": 20.0,
+      "PaymentMethod": "card",
+      "Date": "2024-04-17T20:26:47.9337843"
+    },
+    {
+      "Name": "Coffee",
+      "Price": 15.0,
+      "PaymentMethod": "cash",
+      "Date": "2024-04-17T20:30:04.6563249"
+    },
+    {
+      "Name": "Coffee",
+      "Price": 15.0,
+      "PaymentMethod": "card",
+      "Date": "2024-04-17T20:32:36.7409316+03:00"
+    }
+  ]
+}

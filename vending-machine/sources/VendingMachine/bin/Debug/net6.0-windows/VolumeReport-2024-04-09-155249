@@ -1,0 +1,18 @@
+{
+  "StartTime": "2024-03-20T00:00:00",
+  "EndTime": "2024-04-09T23:59:59",
+  "Products": [
+    {
+      "Name": "Cookie",
+      "Quantity": 1
+    },
+    {
+      "Name": "Soda",
+      "Quantity": 1
+    },
+    {
+      "Name": "Water",
+      "Quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\VendingMachine.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\VendingMachine.Business.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\VendingMachine.Business.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\VendingMachine.Business.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\bin\Debug\net6.0-windows\VendingMachine.Business.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\bin\Debug\net6.0-windows\VendingMachine.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\bin\Debug\net6.0-windows\VendingMachine.Business.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\VendingMachine.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\refint\VendingMachine.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\VendingMachine.Business.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\ref\VendingMachine.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.Business\obj\Debug\net6.0-windows\VendingMachine.Business.csproj.AssemblyReference.cache

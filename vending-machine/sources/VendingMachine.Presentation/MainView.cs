@@ -1,4 +1,5 @@
-﻿using Nagarro.VendingMachine.PresentationLayer;
+﻿using VendingMachine.Presentation;
+using VendingMachine.Presentation.Commands;
 
 namespace Nagarro.VendingMachine.Presentation
 {
@@ -12,11 +13,11 @@ namespace Nagarro.VendingMachine.Presentation
             applicationHeaderControl.Display();
         }
 
-        public IUseCase ChooseCommand(IEnumerable<IUseCase> useCases)
+        public ICommands ChooseCommand(IEnumerable<ICommands> commands)
         {
             CommandSelectorControl commandSelectorControl = new CommandSelectorControl
             {
-                UseCases = useCases
+                commandsList = commands
             };
             return commandSelectorControl.Display();
         }

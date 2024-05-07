@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VendingMachine.DataAccess.Sqlite
-build_property.ProjectDir = /Users/dimagruia/Desktop/RL_Dimitrie_Gruia/vending-machine/sources/VendingMachine.DataAccess.Sqlite/
+build_property.ProjectDir = C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.Sqlite\

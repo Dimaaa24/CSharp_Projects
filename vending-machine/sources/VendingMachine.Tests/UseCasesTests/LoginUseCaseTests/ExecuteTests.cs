@@ -3,6 +3,7 @@ using Moq;
 using Nagarro.VendingMachine.Authentication;
 using Nagarro.VendingMachine.PresentationLayer;
 using Nagarro.VendingMachine.UseCases;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.UseCasesTests.LoginUseCaseTests
 {
@@ -11,14 +12,16 @@ namespace VendingMachine.Tests.UseCasesTests.LoginUseCaseTests
     {
         private readonly Mock<IAuthenticationService> authenticationService;
         private readonly Mock<ILoginView> loginView;
+        private readonly Mock<ILogger<LoginUseCase>> logger;
         private readonly LoginUseCase loginUseCase;
 
         public ExecuteTests()
         {
             authenticationService = new Mock<IAuthenticationService>();
             loginView = new Mock<ILoginView>();
+            logger = new Mock<ILogger<LoginUseCase>>();
 
-            loginUseCase = new LoginUseCase(authenticationService.Object, loginView.Object);
+            loginUseCase = new LoginUseCase(authenticationService.Object, loginView.Object, logger.Object);
         }
 
         [TestMethod]

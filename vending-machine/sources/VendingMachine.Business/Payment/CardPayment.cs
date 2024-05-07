@@ -1,12 +1,13 @@
 ﻿using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace Nagarro.VendingMachine.Payment
 {
     internal class CardPayment : IPaymentAlgorithm
     {
-        public string Name => "Card Payment";
-
         private readonly ICardPaymentView cardPaymentView;
+
+        public string Name => "Card Payment";
 
         public CardPayment(ICardPaymentView cardPaymentView)
         {
@@ -20,7 +21,7 @@ namespace Nagarro.VendingMachine.Payment
                 return false;
             }
 
-            for (int i=0; i<cardNumber.Length ; i++)
+            for (int i = 0; i < cardNumber.Length; i++)
             {
                 if (!char.IsDigit(cardNumber[i]))
                 {
@@ -31,11 +32,11 @@ namespace Nagarro.VendingMachine.Payment
             int sum = 0;
             int multiplier = 2;
 
-            for (int i = cardNumber.Length - 1 ; i >= 0 ; i--)
+            for (int i = cardNumber.Length - 1; i >= 0; i--)
             {
                 multiplier = (multiplier == 2) ? 1 : 2;
 
-                if (multiplier* (int)(cardNumber[i] - 48) >= 10)
+                if (multiplier * (int)(cardNumber[i] - 48) >= 10)
                 {
                     sum += (multiplier * (int)(cardNumber[i] - 48)) / 10 + (multiplier * (int)(cardNumber[i] - 48)) % 10;
                 }
@@ -55,8 +56,10 @@ namespace Nagarro.VendingMachine.Payment
             }
         }
 
-        public bool Run(decimal price)
+        public bool Run(decimal price, out string paymentType)
         {
+            paymentType = "card";
+
             string cardNumber = cardPaymentView.AskForCardNumber();
             int cancelCardPayment;
 

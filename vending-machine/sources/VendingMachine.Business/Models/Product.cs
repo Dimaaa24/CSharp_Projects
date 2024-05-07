@@ -1,6 +1,6 @@
 ﻿namespace Nagarro.VendingMachine.Models
-{
-    internal sealed class Product
+{ 
+    public sealed class Product
     {
         public int Id { get; set; }
 

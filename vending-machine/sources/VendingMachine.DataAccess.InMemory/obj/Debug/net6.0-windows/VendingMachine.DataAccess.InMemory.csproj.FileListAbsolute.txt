@@ -1,0 +1,15 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.csproj.AssemblyReference.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\bin\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\bin\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\bin\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\bin\Debug\net6.0-windows\VendingMachine.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\bin\Debug\net6.0-windows\VendingMachine.Business.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.csproj.CopyComplete
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\refint\VendingMachine.DataAccess.InMemory.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\VendingMachine.DataAccess.InMemory.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\vending-machine\sources\VendingMachine.DataAccess.InMemory\obj\Debug\net6.0-windows\ref\VendingMachine.DataAccess.InMemory.dll

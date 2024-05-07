@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VendingMachineAPI</name>
+    </assembly>
+    <members>
+        <member name="M:VendingMachineAPI.Controllers.SaleController.GetAll(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            </summary>
+            <param name="startDate">Date format: mm-dd-yyyy. Example : 10-24-2002</param>
+            <param name="endDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VendingMachineAPI.Controllers.SaleController.DeleteSales(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            </summary>
+            <param name="startDate">Date format: mm-dd-yyyy. Example : 10-24-2002</param>
+            <param name="endDate"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

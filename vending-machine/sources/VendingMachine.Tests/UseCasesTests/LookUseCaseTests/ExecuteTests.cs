@@ -3,6 +3,7 @@ using Moq;
 using Nagarro.VendingMachine.DataAccess;
 using Nagarro.VendingMachine.PresentationLayer;
 using Nagarro.VendingMachine.UseCases;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.UseCasesTests.LookUseCaseTests
 {
@@ -14,7 +15,8 @@ namespace VendingMachine.Tests.UseCasesTests.LookUseCaseTests
         {
             Mock<IShelfView> shelfView = new Mock<IShelfView>();
             Mock<IProductRepository> productRepository = new Mock<IProductRepository>();
-            LookUseCase lookUseCase = new LookUseCase(shelfView.Object, productRepository.Object);
+            Mock<ILogger<LookUseCase>> logger = new Mock<ILogger<LookUseCase>>();
+            LookUseCase lookUseCase = new LookUseCase(shelfView.Object, productRepository.Object, logger.Object);
 
             lookUseCase.Execute();
 

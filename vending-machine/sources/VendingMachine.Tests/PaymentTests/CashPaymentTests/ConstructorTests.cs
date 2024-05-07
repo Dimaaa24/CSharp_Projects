@@ -2,6 +2,7 @@
 using Moq;
 using Nagarro.VendingMachine.Payment;
 using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.PaymentTests.CashPaymentTests
 {

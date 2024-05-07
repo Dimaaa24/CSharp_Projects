@@ -1,5 +1,5 @@
-﻿using Nagarro.VendingMachine.Exceptions;
-using Nagarro.VendingMachine.PresentationLayer;
+﻿using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace Nagarro.VendingMachine.Payment
 {
@@ -9,7 +9,7 @@ namespace Nagarro.VendingMachine.Payment
         private readonly IEnumerable<IPaymentAlgorithm> paymentAlgorithms;
         private readonly List<PaymentMethod> paymentMethods;
 
-        public PaymentService(IBuyView buyView, IEnumerable<IPaymentAlgorithm> paymentAlgorithms)
+        public PaymentService(IBuyView buyView, IEnumerable<IPaymentAlgorithm> paymentAlgorithms, ILogger<PaymentService> logger)
         {
             this.buyView = buyView ?? throw new ArgumentNullException(nameof(buyView));
             this.paymentAlgorithms = paymentAlgorithms ?? throw new ArgumentNullException(nameof(paymentAlgorithms));
@@ -24,9 +24,11 @@ namespace Nagarro.VendingMachine.Payment
             }
         }
 
-        public bool Execute(decimal price)
+        public bool Execute(decimal price, out string paymentType)
         {
+
             int iterator = 0;
+
             int choice = buyView.AskForPaymentMethod(paymentMethods);
 
             foreach (IPaymentAlgorithm paymentAlgorithm in paymentAlgorithms)
@@ -34,9 +36,11 @@ namespace Nagarro.VendingMachine.Payment
                 iterator++;
                 if (choice == iterator)
                 {
-                    return paymentAlgorithm.Run(price);
+                    return paymentAlgorithm.Run(price, out paymentType);
                 }
             }
+
+            paymentType = "fail";
 
             return false;
         }

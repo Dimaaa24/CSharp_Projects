@@ -2,6 +2,7 @@
 using Moq;
 using Nagarro.VendingMachine.Payment;
 using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.PaymentTests.CashPaymentTests
 {
@@ -14,6 +15,7 @@ namespace VendingMachine.Tests.PaymentTests.CashPaymentTests
         public RunTests()
         {
             cashPaymentView = new Mock<ICashPaymentView>();
+
             cashPayment = new CashPayment(cashPaymentView.Object);
         }
 
@@ -24,7 +26,7 @@ namespace VendingMachine.Tests.PaymentTests.CashPaymentTests
                 .Setup(x => x.AskForMoney(It.IsAny<decimal>(), It.IsAny<decimal>()))
                 .Returns("10");
 
-            cashPayment.Run(30);
+            cashPayment.Run(30, out It.Ref<string>.IsAny);
 
             cashPaymentView.Verify(x => x.AskForMoney(It.IsAny<decimal>(), It.IsAny<decimal>()), Times.Exactly(3));
         }
@@ -36,7 +38,7 @@ namespace VendingMachine.Tests.PaymentTests.CashPaymentTests
                 .Setup(x => x.AskForMoney(It.IsAny<decimal>(), It.IsAny<decimal>()))
                 .Returns("50");
 
-            cashPayment.Run(34.45m);
+            cashPayment.Run(34.45m, out It.Ref<string>.IsAny);
 
             cashPaymentView.Verify(x => x.GiveBackChange(10, 1), Times.Once());
             cashPaymentView.Verify(x => x.GiveBackChange(5, 1), Times.Once());

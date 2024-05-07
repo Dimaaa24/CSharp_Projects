@@ -1,0 +1,15 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\bin\Debug\net6.0-windows\RemoteLearning.BigTree.Business.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\bin\Debug\net6.0-windows\RemoteLearning.BigTree.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\bin\Debug\net6.0-windows\RemoteLearning.BigTree.Business.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\bin\Debug\net6.0-windows\RemoteLearning.BigTree.ThirdPartyLibrary.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\bin\Debug\net6.0-windows\RemoteLearning.BigTree.ThirdPartyLibrary.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\BigTree.Business.csproj.AssemblyReference.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\BigTree.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\BigTree.Business.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\BigTree.Business.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\BigTree.Business.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\BigTree.Business.csproj.CopyComplete
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\RemoteLearning.BigTree.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\refint\RemoteLearning.BigTree.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\RemoteLearning.BigTree.Business.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\big-tree---threads\sources\BigTree.Business\obj\Debug\net6.0-windows\ref\RemoteLearning.BigTree.Business.dll

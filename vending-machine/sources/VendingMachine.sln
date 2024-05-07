@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine", "VendingMa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine.Tests", "VendingMachine.Tests\VendingMachine.Tests.csproj", "{C9CEDEFD-D7F6-4907-A42C-3291971FFB79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachine.Business", "VendingMachine.Business\VendingMachine.Business.csproj", "{1933DE0E-17AF-4892-B156-130D492087D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine.Business", "VendingMachine.Business\VendingMachine.Business.csproj", "{1933DE0E-17AF-4892-B156-130D492087D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachine.DataAccess.InMemory", "VendingMachine.DataAccess.InMemory\VendingMachine.DataAccess.InMemory.csproj", "{0B776152-F8AB-45AC-B521-98143EC3A456}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine.DataAccess.InMemory", "VendingMachine.DataAccess.InMemory\VendingMachine.DataAccess.InMemory.csproj", "{0B776152-F8AB-45AC-B521-98143EC3A456}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachine.DataAccess.Sqlite", "VendingMachine.DataAccess.Sqlite\VendingMachine.DataAccess.Sqlite.csproj", "{DEE7BFD8-1A29-490B-B956-CFF5EC6DC2AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine.DataAccess.Sqlite", "VendingMachine.DataAccess.Sqlite\VendingMachine.DataAccess.Sqlite.csproj", "{DEE7BFD8-1A29-490B-B956-CFF5EC6DC2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachine.Presentation", "VendingMachine.Presentation\VendingMachine.Presentation.csproj", "{FDBFE89B-A7CD-4FA6-B948-17ACA1BC711C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine.Presentation", "VendingMachine.Presentation\VendingMachine.Presentation.csproj", "{FDBFE89B-A7CD-4FA6-B948-17ACA1BC711C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachineAPI", "VendingMachineAPI\VendingMachineAPI.csproj", "{23CAA98F-887F-4D36-84BE-354FB9AA1390}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{FDBFE89B-A7CD-4FA6-B948-17ACA1BC711C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDBFE89B-A7CD-4FA6-B948-17ACA1BC711C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDBFE89B-A7CD-4FA6-B948-17ACA1BC711C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CAA98F-887F-4D36-84BE-354FB9AA1390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CAA98F-887F-4D36-84BE-354FB9AA1390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CAA98F-887F-4D36-84BE-354FB9AA1390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CAA98F-887F-4D36-84BE-354FB9AA1390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

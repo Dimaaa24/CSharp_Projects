@@ -1,32 +1,34 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Nagarro.VendingMachine.Authentication;
 using Nagarro.VendingMachine.DataAccess;
 using Nagarro.VendingMachine.Exceptions;
 using Nagarro.VendingMachine.Models;
 using Nagarro.VendingMachine.Payment;
 using Nagarro.VendingMachine.PresentationLayer;
 using Nagarro.VendingMachine.UseCases;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.UseCases.BuyUseCaseTests
 {
     [TestClass]
     public class ExecuteTests
     {
-        private readonly Mock<IAuthenticationService> authenticationService;
         private readonly Mock<IProductRepository> productRepository;
+        private readonly Mock<ISaleRepository> saleRepository;
         private readonly Mock<IBuyView> buyView;
         private readonly Mock<IPaymentService> paymentService;
+        private readonly Mock<ILogger<BuyUseCase>> logger;
         private readonly BuyUseCase buyUseCase;
 
         public ExecuteTests()
         {
-            authenticationService = new Mock<IAuthenticationService>();
             productRepository = new Mock<IProductRepository>();
             buyView = new Mock<IBuyView>();
             paymentService = new Mock<IPaymentService>();
+            saleRepository = new Mock<ISaleRepository>();
+            logger = new Mock<ILogger<BuyUseCase>>();
 
-            buyUseCase = new BuyUseCase(authenticationService.Object, buyView.Object, productRepository.Object, paymentService.Object);
+            buyUseCase = new BuyUseCase(buyView.Object, productRepository.Object, paymentService.Object, saleRepository.Object, logger.Object);
         }
 
         [TestMethod]
@@ -40,7 +42,7 @@ namespace VendingMachine.Tests.UseCases.BuyUseCaseTests
                 .Returns(2);
             buyView
                 .Setup(x => x.ConfirmPay())
-                .Returns(true);
+                .Returns(1);
 
             buyUseCase.Execute();
 
@@ -58,7 +60,7 @@ namespace VendingMachine.Tests.UseCases.BuyUseCaseTests
                 .Returns(1);
             buyView
                 .Setup(x => x.ConfirmPay())
-                .Returns(true);
+                .Returns(1);
             buyView
                 .Setup(x => x.AskForPaymentMethod(It.IsAny<List<PaymentMethod>>()))
                 .Returns(2);
@@ -90,14 +92,14 @@ namespace VendingMachine.Tests.UseCases.BuyUseCaseTests
                 .Returns(new Product { Quantity = 1, Price = 10 });
             buyView
                 .Setup(x => x.ConfirmPay())
-                .Returns(true);
+                .Returns(1);
             buyView
                 .Setup(x => x.AskForPaymentMethod(It.IsAny<List<PaymentMethod>>()))
                 .Returns(2);
 
             buyUseCase.Execute();
 
-            paymentService.Verify(x => x.Execute(It.IsAny<decimal>()), Times.Once());
+            paymentService.Verify(x => x.Execute(It.IsAny<decimal>(), out It.Ref<string>.IsAny), Times.Once());
         }
 
         [TestMethod]
@@ -111,9 +113,9 @@ namespace VendingMachine.Tests.UseCases.BuyUseCaseTests
                 .Returns(new Product { Quantity = 1, Price = 10 });
             buyView
                 .Setup(x => x.ConfirmPay())
-                .Returns(true);
+                .Returns(1);
             paymentService
-                .Setup(x => x.Execute(It.IsAny<decimal>()))
+                .Setup(x => x.Execute(It.IsAny<decimal>(), out It.Ref<string>.IsAny))
                 .Returns(true);
 
             buyUseCase.Execute();
@@ -132,9 +134,9 @@ namespace VendingMachine.Tests.UseCases.BuyUseCaseTests
                 .Returns(new Product { Name = "test", Quantity = 1, Price = 10 });
             buyView
                 .Setup(x => x.ConfirmPay())
-                .Returns(true);
+                .Returns(1);
             paymentService
-                .Setup(x => x.Execute(It.IsAny<decimal>()))
+                .Setup(x => x.Execute(It.IsAny<decimal>(), out It.Ref<string>.IsAny))
                 .Returns(true);
 
             buyUseCase.Execute();

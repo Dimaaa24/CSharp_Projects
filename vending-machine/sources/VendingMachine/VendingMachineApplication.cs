@@ -1,35 +1,42 @@
-﻿using Nagarro.VendingMachine.PresentationLayer;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using VendingMachine.Business.Logging;
+using VendingMachine.Presentation;
+using VendingMachine.Presentation.Commands;
 
 namespace Nagarro.VendingMachine
 {
     internal class VendingMachineApplication : IVendingMachineApplication
     {
-        private readonly IEnumerable<IUseCase> useCases;
+        private readonly IEnumerable<ICommands> commands;
         private readonly IMainView mainView;
+        private readonly ILogger<VendingMachineApplication> logger;
 
-        public VendingMachineApplication(IEnumerable<IUseCase> useCases, IMainView mainView)
+        public VendingMachineApplication(IEnumerable<ICommands> commands, IMainView mainView, ILogger<VendingMachineApplication> logger)
         {
-            this.useCases = useCases ?? throw new ArgumentNullException(nameof(useCases));
+            this.commands = commands ?? throw new ArgumentNullException(nameof(commands));
             this.mainView = mainView ?? throw new ArgumentNullException(nameof(mainView));
+            this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         public void Run()
         {
+            logger.Info("VendingMachine application started.");
+
             mainView.DisplayApplicationHeader();
 
             while (true)
             {
-                List<IUseCase> availableUseCases = GetExecutableUseCases();
+                List<ICommands> availableCommands = GetExecutableUseCases();
                 try
                 {
                     mainView.DisplayApplicationHeader();
-                    IUseCase useCase = mainView.ChooseCommand(availableUseCases);
-                    useCase.Execute();
+                    ICommands command = mainView.ChooseCommand(availableCommands);
+                    command.Execute();
                 }
                 catch (Exception e)
                 {
+                    logger.Error(e.Message + e.StackTrace + e.InnerException);
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(e.Message);
                     Console.ReadKey();
@@ -37,14 +44,14 @@ namespace Nagarro.VendingMachine
             }
         }
 
-        private List<IUseCase> GetExecutableUseCases()
+        private List<ICommands> GetExecutableUseCases()
         {
-            List<IUseCase> executableUseCases = new List<IUseCase>();
+            List<ICommands> executableUseCases = new List<ICommands>();
 
-            foreach (IUseCase useCase in useCases)
+            foreach (ICommands command in commands)
             {
-                if (useCase.CanExecute)
-                    executableUseCases.Add(useCase);
+                if (command.CanExecute)
+                    executableUseCases.Add(command);
             }
 
             return executableUseCases;

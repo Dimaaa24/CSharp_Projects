@@ -1,1 +1,0 @@
-We created two separate visual studio solutions so that, when the student solves the exercise, to easily see what files are modified in that solution.

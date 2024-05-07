@@ -1,0 +1,24 @@
+{
+  "Stock": [
+    {
+      "Name": "Soda",
+      "Quantity": 3
+    },
+    {
+      "Name": "Cookie",
+      "Quantity": 8
+    },
+    {
+      "Name": "Coffee",
+      "Quantity": 3
+    },
+    {
+      "Name": "Bagel",
+      "Quantity": 20
+    },
+    {
+      "Name": "Water",
+      "Quantity": 28
+    }
+  ]
+}

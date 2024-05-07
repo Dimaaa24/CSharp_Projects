@@ -1,5 +1,4 @@
 ﻿using Microsoft.Data.Sqlite;
-using Nagarro.VendingMachine.Exceptions;
 using Nagarro.VendingMachine.Models;
 using System.Data;
 

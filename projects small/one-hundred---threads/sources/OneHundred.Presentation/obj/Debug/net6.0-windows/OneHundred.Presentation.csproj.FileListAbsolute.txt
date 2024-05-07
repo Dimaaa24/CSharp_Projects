@@ -1,0 +1,15 @@
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\bin\Debug\net6.0-windows\RemoteLearning.OneHundred.Presentation.deps.json
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\bin\Debug\net6.0-windows\RemoteLearning.OneHundred.Presentation.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\bin\Debug\net6.0-windows\RemoteLearning.OneHundred.Presentation.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\bin\Debug\net6.0-windows\RemoteLearning.OneHundred.Business.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\bin\Debug\net6.0-windows\RemoteLearning.OneHundred.Business.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\OneHundred.Presentation.csproj.AssemblyReference.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\OneHundred.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\OneHundred.Presentation.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\OneHundred.Presentation.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\OneHundred.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\OneHundred.Presentation.csproj.CopyComplete
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\RemoteLearning.OneHundred.Presentation.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\refint\RemoteLearning.OneHundred.Presentation.dll
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\RemoteLearning.OneHundred.Presentation.pdb
+C:\Users\sergi\OneDrive\Desktop\RL_Dimitrie_Gruia\Homeworks\one-hundred---threads\sources\OneHundred.Presentation\obj\Debug\net6.0-windows\ref\RemoteLearning.OneHundred.Presentation.dll

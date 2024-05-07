@@ -1,0 +1,58 @@
+2024-04-08 22:50:49,658 [1] INFO Nagarro.VendingMachine.VendingMachineApplication [(null)] - Application started.
+2024-04-08 23:04:57,196 [1] INFO Nagarro.VendingMachine.VendingMachineApplication [(null)] - Application built successfully.
+2024-04-08 23:04:57,232 [1] INFO Nagarro.VendingMachine.VendingMachineApplication [(null)] - Application started.
+2024-04-08 23:07:25,099 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - Application started.
+2024-04-08 23:08:38,273 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - Application started.
+2024-04-08 23:09:11,611 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - Application started.
+2024-04-08 23:10:58,703 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - Application started.
+2024-04-08 23:13:16,775 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - Application started.
+2024-04-08 23:20:08,506 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:24:32,536 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:28:53,479 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:29:04,382 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:29:56,075 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:29:58,751 [1] INFO VendingMachine.Presentation.Commands.ExitCommand - VendingMachine application exited
+2024-04-08 23:30:11,286 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:32:16,927 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:41:06,503 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:41:44,572 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:44:21,909 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-08 23:52:20,738 [1] INFO Nagarro.VendingMachine.VendingMachineApplication - VendingMachine application started.
+2024-04-09 15:50:33,661 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-09 15:50:40,829 [1] INFO  Nagarro.VendingMachine.UseCases.LookUseCase [(null)] - Look usecase initialized-products have been displayed.
+2024-04-09 15:50:44,610 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:51:00,877 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Product Soda succsefully paid and dispensed using card.
+2024-04-09 15:51:03,634 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:51:09,643 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:51:11,039 [1] WARN  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Inputed invalid product ID 9.
+2024-04-09 15:51:20,267 [1] ERROR Nagarro.VendingMachine.Payment.CashPayment [(null)] - Canceled cash payment.
+2024-04-09 15:51:21,881 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:51:29,350 [1] INFO  Nagarro.VendingMachine.Payment.CashPayment [(null)] - User paid 100lei and was given back 95lei.
+2024-04-09 15:51:29,353 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Product Cookie succsefully paid and dispensed using cash.
+2024-04-09 15:51:32,050 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:51:40,777 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:51:46,236 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:51:56,384 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Product Water succsefully paid and dispensed using card.
+2024-04-09 15:51:58,894 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:52:06,595 [1] ERROR Nagarro.VendingMachine.Payment.CardPayment [(null)] - Canceled card payment.
+2024-04-09 15:52:10,045 [1] INFO  Nagarro.VendingMachine.UseCases.LoginUseCase [(null)] - Login use case initialized.
+2024-04-09 15:52:11,298 [1] INFO  Nagarro.VendingMachine.Authentication.AuthenticationService [(null)] - User succesfully authenticated
+2024-04-09 15:52:18,473 [1] INFO  Nagarro.VendingMachine.UseCases.SalesReportUseCase [(null)] - SalesReport usecase initialized.
+2024-04-09 15:52:27,891 [1] INFO  Nagarro.VendingMachine.UseCases.SalesReportUseCase [(null)] - Sales report generated succesfully
+2024-04-09 15:52:34,148 [1] INFO  VendingMachine.Business.UseCases.StockReportUseCase [(null)] - StockReport usecase initialized.
+2024-04-09 15:52:34,153 [1] INFO  VendingMachine.Business.UseCases.StockReportUseCase [(null)] - Stock report generated succesfully
+2024-04-09 15:52:38,765 [1] INFO  VendingMachine.Business.UseCases.VolumeReportUseCase [(null)] - VolumeReport usecase initialized.
+2024-04-09 15:52:49,183 [1] INFO  VendingMachine.Business.UseCases.VolumeReportUseCase [(null)] - Volume report generated succesfully
+2024-04-09 15:52:53,122 [1] INFO  Nagarro.VendingMachine.UseCases.LogoutUseCase [(null)] - Logout use case initialized.
+2024-04-09 15:52:53,122 [1] INFO  Nagarro.VendingMachine.Authentication.AuthenticationService [(null)] - User succesfully logged out
+2024-04-09 15:52:54,529 [1] INFO  VendingMachine.Presentation.Commands.ExitCommand [(null)] - VendingMachine application ended.
+2024-04-09 15:58:12,352 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-09 15:58:16,964 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:58:21,559 [1] INFO  Nagarro.VendingMachine.Payment.PaymentService [(null)] - Payment service initialized.
+2024-04-09 15:58:23,089 [1] ERROR Nagarro.VendingMachine.Payment.PaymentService [(null)] - Payment failed, buy action canceled.
+2024-04-09 15:58:25,840 [1] INFO  Nagarro.VendingMachine.UseCases.BuyUseCase [(null)] - Buy use case initialized.
+2024-04-09 15:58:32,759 [1] INFO  Nagarro.VendingMachine.Payment.PaymentService [(null)] - Payment service initialized.
+2024-04-09 16:01:46,363 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.
+2024-04-09 16:01:49,910 [1] INFO  Nagarro.VendingMachine.UseCases.LookUseCase [(null)] - Look usecase initialized-products have been displayed.
+2024-04-09 16:01:52,030 [1] INFO  VendingMachine.Presentation.Commands.ExitCommand [(null)] - VendingMachine application ended.
+2024-04-09 17:09:28,944 [1] INFO  Nagarro.VendingMachine.VendingMachineApplication [(null)] - VendingMachine application started.

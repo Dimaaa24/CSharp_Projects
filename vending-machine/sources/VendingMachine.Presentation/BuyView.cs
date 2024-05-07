@@ -15,7 +15,7 @@ namespace Nagarro.VendingMachine.Presentation
             Display("Input an item ID:", ConsoleColor.Green);
 
             string consoleId = Console.ReadLine();
-            for(int i =0; i < consoleId.Length; i++)
+            for (int i = 0; i < consoleId.Length; i++)
             {
                 if (!char.IsDigit(consoleId[i]))
                     return -1;

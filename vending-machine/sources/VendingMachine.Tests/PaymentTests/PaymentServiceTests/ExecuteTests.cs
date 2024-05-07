@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Nagarro.VendingMachine.Exceptions;
 using Nagarro.VendingMachine.Payment;
 using Nagarro.VendingMachine.PresentationLayer;
+using VendingMachine.Business.Logging;
 
 namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
 {
@@ -12,6 +12,7 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
         private readonly Mock<IBuyView> buyView;
         private readonly Mock<IPaymentAlgorithm> cardPayment;
         private readonly Mock<IPaymentAlgorithm> cashPayment;
+        private readonly Mock<ILogger<PaymentService>> logger;
         private readonly IEnumerable<IPaymentAlgorithm> paymentAlgorithms;
         private readonly PaymentService paymentService;
 
@@ -25,7 +26,8 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
                 cashPayment.Object,
                 cardPayment.Object
             };
-            paymentService = new PaymentService(buyView.Object, paymentAlgorithms);
+            logger = new Mock<ILogger<PaymentService>>();
+            paymentService = new PaymentService(buyView.Object, paymentAlgorithms, logger.Object);
         }
 
         [TestMethod]
@@ -35,7 +37,7 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
                 .Setup(x => x.AskForPaymentMethod(It.IsAny<List<PaymentMethod>>()))
                 .Returns(1);
 
-            paymentService.Execute(It.IsAny<decimal>());
+            paymentService.Execute(It.IsAny<decimal>(), out It.Ref<string>.IsAny);
 
             buyView.Verify(x => x.AskForPaymentMethod(It.IsAny<List<PaymentMethod>>()), Times.Once());
         }
@@ -47,7 +49,7 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
                 .Setup(x => x.AskForPaymentMethod(It.IsAny<List<PaymentMethod>>()))
                 .Returns(3);
 
-            Assert.AreEqual(false, paymentService.Execute(It.IsAny<decimal>()));
+            Assert.AreEqual(false, paymentService.Execute(It.IsAny<decimal>(), out It.Ref<string>.IsAny));
         }
 
         [TestMethod]
@@ -57,9 +59,9 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
                 .Setup(x => x.AskForPaymentMethod(It.IsAny<List<PaymentMethod>>()))
                 .Returns(1);
 
-            paymentService.Execute(It.IsAny<decimal>());
+            paymentService.Execute(It.IsAny<decimal>(), out It.Ref<string>.IsAny);
 
-            cashPayment.Verify(x => x.Run(It.IsAny<decimal>()), Times.Once());
+            cashPayment.Verify(x => x.Run(It.IsAny<decimal>(), out It.Ref<string>.IsAny), Times.Once());
         }
 
         [TestMethod]
@@ -69,9 +71,9 @@ namespace VendingMachine.Tests.PaymentTests.PaymentServiceTests
                 .Setup(x => x.AskForPaymentMethod(It.IsAny<List<PaymentMethod>>()))
                 .Returns(2);
 
-            paymentService.Execute(It.IsAny<decimal>());
+            paymentService.Execute(It.IsAny<decimal>(), out It.Ref<string>.IsAny);
 
-            cardPayment.Verify(x => x.Run(It.IsAny<decimal>()), Times.Once());
+            cardPayment.Verify(x => x.Run(It.IsAny<decimal>(), out It.Ref<string>.IsAny), Times.Once());
         }
     }
 }

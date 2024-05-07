@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Eyeglass": {
-      "commandName": "Project",
-      "commandLineArgs": "\"C:\\Users\\sergi\\OneDrive\\Desktop\\RL_Dimitrie_Gruia\\vending-machine\\sources\\VendingMachine\\bin\\Debug\\net6.0-windows\\VendingMachine.Business.dll\""
-    }
-  }
-}
